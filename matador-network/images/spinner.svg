@@ -1,0 +1,22 @@
+<svg fill="#777" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 14">
+<style type="text/css"> 
+@keyframes dotsSpinnerDot {
+	0% { transform: translate3d(0,0,0); }
+	100% { transform: translate3d(0,8px,0); }
+}
+#dot-1, #dot-2, #dot-3 {
+	animation-name: dotsSpinnerDot;
+	animation-duration: 600ms;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
+#dot-1 {animation-delay: 0;}
+#dot-2 {animation-delay: 200ms;}
+#dot-3 {animation-delay: 400ms;}
+</style>
+<circle id="dot-1" cx="3" cy="3" r="3"></circle>
+<circle id="dot-2" cx="19" cy="3" r="3"></circle>
+<circle id="dot-3" cx="35" cy="3" r="3"></circle>
+</svg>

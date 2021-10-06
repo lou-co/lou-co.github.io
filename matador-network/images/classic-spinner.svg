@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="transparent" stroke="#000">
+<style type="text/css"> 
+@keyframes classicSpinnerHand {
+	to { transform: rotate(360deg); }
+}
+#cs-hand {
+	transform-origin: 50% 50%;
+	animation: classicSpinnerHand 1000ms linear infinite;
+}
+</style>
+<circle  cx="20" cy="20" r="18" opacity="0.3" stroke-width="3"></circle>
+<circle id="cs-hand" cx="20" cy="20" r="18" stroke-width="3" stroke-dasharray="25, 100"></circle>
+</svg>
